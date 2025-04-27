@@ -11,7 +11,7 @@
 :root {
   --primary-text-color: #000;
   --title-color: #fdfbef;
-  --active-color: #2196f3;
+  --active-color: #434744;
   --primary-background-color: #fefaf1;
   --button-color: #ce6c4f;
   --rounded-corners-external: 8px;
@@ -151,17 +151,16 @@ body {
 .products-list .thumb {
   border-radius: var(--rounded-corners-external);
   overflow: hidden;
+  margin-bottom: 10px;
 }
 
 .products-description {
   display: flex;
   flex-direction: column;
-  width: 80%;
-  background-color: #ce6c4f;
+  margin: 0 auto;
+  width: calc(100% - 20px);
 }
-.products-description:nth-child(n + 1) {
-  margin-bottom: 20px;
-}
+
 .products-title {
   color: var(--primary-text-color);
   font-family: Lora, serif;
@@ -170,6 +169,7 @@ body {
   font-size: 24px;
   line-height: 1.1;
   letter-spacing: 0.03em;
+  margin-bottom: 10px;
 }
 
 .price {
@@ -178,6 +178,7 @@ body {
   font-size: 16px;
   line-height: 1.1;
   letter-spacing: 0.04em;
+  margin-bottom: 10px;
 }
 
 .details {
@@ -189,7 +190,11 @@ body {
   margin: 0 auto;
   min-height: 35px;
   display: block;
-  width: calc(100% - 20px);
+  width: 100%;
+}
+.details:hover,
+.details:focus {
+  background-color: var(--active-color);
 }
 
 .footer {
