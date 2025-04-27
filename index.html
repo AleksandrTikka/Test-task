@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="node_modules/modern-normalize/modern-normalize.css" />
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="navigation">
+          <div class="logo">
+            <a class="link" href="/"
+              ><img src="./images/logo-image.png" alt="russians are roosters"
+            /></a>
+          </div>
+
+          <ul class="list site-nav">
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item"><a href="#products">Products</a></li>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-container">
+          <h1 class="hero-title">
+            Discover Our <br />
+            Latest Products
+          </h1>
+        </div>
+      </section>
+
+      <section id="products" class="products">
+        <div class="container products-container">
+          <h2 hidden>Products</h2>
+          <div class="products-filter">
+            <form class="filter-form">
+              <select class="filter-category" name="category" id="category">
+                <option value="All" selected>All</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Home">Home</option>
+                <option value="Books">Books</option>
+              </select>
+              <input class="filter-input" type="input" placeholder="Search" />
+              <input class="filter-reset" type="reset" value="Reset" />
+            </form>
+          </div>
+          <ul class="list products-list">
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="earphones" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Wiress Eards</h3>
+                <p hidden class="data-category">Electronics</p>
+                <p class="price">$89</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="backpack" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Backpack</h3>
+                <p hidden class="data-category">Fashion</p>
+                <p class="price">$120</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="sofa" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Home</h3>
+                <p hidden class="data-category">Home</p>
+                <p class="price">$580</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="hard book" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Hardcover Book</h3>
+                <p hidden class="data-category">Book</p>
+                <p class="price">$20</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="mobile phone" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Smartphone</h3>
+                <p hidden class="data-category">Electronics</p>
+                <p class="price">$669</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="shoes" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Sneeker</h3>
+                <p hidden class="data-category">Fashion</p>
+                <p class="price">$80</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="lamp" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Table Lamp</h3>
+                <p hidden class="data-category">Home</p>
+                <p class="price">$45</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+            <li class="item products-item">
+              <div class="thumb"><img src="/images/logo-roosters.png" alt="soft book" /></div>
+              <div class="products-description">
+                <h3 class="products-title">Paperback Book</h3>
+                <p hidden class="data-category">Book</p>
+                <p class="price">$15</p>
+                <button class="details">View Details</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="about" class="about">
+        <div class="container about-container">
+          <h2>About us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti temporibus, numquam
+            sapiente deserunt illum, atque provident, sequi veritatis maxime fugit dolores odit
+            reiciendis eaque et amet. Dolor accusantium praesentium, fuga, id minus vel laboriosam
+            itaque nisi perspiciatis debitis iure. Explicabo reprehenderit enim dolores quaerat?
+            Error doloribus delectus ratione expedita. Tempora earum sapiente quod molestias rerum
+            neque provident deleniti excepturi molestiae distinctio eius explicabo facilis animi id
+            laborum placeat consequuntur, libero nihil. Corporis sint, laudantium dolores recusandae
+            cum expedita doloribus id provident! Assumenda ducimus quo maxime eaque, est, provident
+            nemo cumque deleniti ut id non amet doloremque iusto iste. Tempora, fugit.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container footer-container">
+        <address id="contact">
+          <ul class="list address">
+            <li class="item address__item">
+              <a class="link" href="" class="link address__link address__link--city"
+                >г. Киев, пр-т Леси Украинки, 26</a
+              >
+            </li>
+            <li class="item address__item">
+              <a
+                class="link"
+                href="mailto:info@example.com"
+                class="link address__link address__link--mail"
+                >info@example.com</a
+              >
+            </li>
+            <li class="item address__item">
+              <a class="link" href="tel:+380991111111" class="link address__link address__link--tel"
+                >+38 099 111 11 11</a
+              >
+            </li>
+          </ul>
+        </address>
+        <p>&copy; 2025 Tikka Oleksandr</p>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
